@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#75000000"
+        android:layout_marginBottom="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="0.6dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Thank You For Participating in  Quiz!"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnResetQuiz"
+            android:layout_width="match_parent"
+            android:text="Reset Quiz"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#4CAF50"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:text="Exit"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#F44336"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
